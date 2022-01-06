@@ -99,7 +99,6 @@ h1{
     background-image: url(images/pictures/develop-bg.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
-    background-size: 100%;
     padding: 50px;
     align-items: center;
 }
@@ -107,6 +106,10 @@ h1{
 #global-community{
     padding: 50px;
     align-items: center;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
 }
 
 .half-width form input{
