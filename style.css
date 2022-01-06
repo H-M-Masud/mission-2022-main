@@ -123,6 +123,10 @@ h1{
 .contact{
     background-color: #ffeaa7;
     padding-right: 20%;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: 150px;
 }
 .contact h2{
     text-align: center;
