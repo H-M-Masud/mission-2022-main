@@ -5,6 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+#top-banner{
+    background-image: url(images/pictures/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .flexible{
     display: flex;
 }
@@ -94,6 +99,7 @@ h1{
     background-image: url(images/pictures/develop-bg.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
+    background-size: 100%;
     padding: 50px;
     align-items: center;
 }
