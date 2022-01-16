@@ -3,6 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 #top-banner{
@@ -72,6 +74,7 @@ h1{
     padding: 30px;
     width: 30%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s linear;
 }
 
 .single-card:hover{
@@ -142,6 +145,7 @@ h1{
     padding: 10% 15% 10% 5%; 
     box-shadow: #fdcb6e 0px 3px 8px;
     border-radius: 10px;
+    transition: .3s linear;
 }
 
 .half-width form:hover{
@@ -153,4 +157,53 @@ h1{
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+
+/* --------------------------
+ responsive design starts
+---------------------------- */
+@media only screen and (max-width:688px){
+    body{
+        overflow-x: hidden;
+    }
+    .flexible{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .single-card{
+        width: 50%;
+    }
+    .link-btn{
+        font-size: 10px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .half-width form{
+        width: 100%;
+    }
+    .half-width form input{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:990px){
+    body{
+        width: 100%;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
 }
